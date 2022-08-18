@@ -1,0 +1,10 @@
+C:\Users\u\source\repos\tarea_p\tarea_p\bin\Debug\tarea_p.exe.config
+C:\Users\u\source\repos\tarea_p\tarea_p\bin\Debug\tarea_p.exe
+C:\Users\u\source\repos\tarea_p\tarea_p\bin\Debug\tarea_p.pdb
+C:\Users\u\source\repos\tarea_p\tarea_p\obj\Debug\tarea_p.csproj.AssemblyReference.cache
+C:\Users\u\source\repos\tarea_p\tarea_p\obj\Debug\tarea_p.Form1.resources
+C:\Users\u\source\repos\tarea_p\tarea_p\obj\Debug\tarea_p.Properties.Resources.resources
+C:\Users\u\source\repos\tarea_p\tarea_p\obj\Debug\tarea_p.csproj.GenerateResource.cache
+C:\Users\u\source\repos\tarea_p\tarea_p\obj\Debug\tarea_p.csproj.CoreCompileInputs.cache
+C:\Users\u\source\repos\tarea_p\tarea_p\obj\Debug\tarea_p.exe
+C:\Users\u\source\repos\tarea_p\tarea_p\obj\Debug\tarea_p.pdb
