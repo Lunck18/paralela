@@ -27,13 +27,13 @@ namespace tarea_p
             int n = 1;
             foreach (Process p in Process.GetProcesses())
             {
-                listBoxProcesos.Items.Add(n + "::" + p.ProcessName);
-                listBoxPid.Items.Add(n + ":: " + p.Id);
-                listBoxMR.Items.Add(n + "::" + p.WorkingSet64);
-                listBoxCPU.Items.Add(n + "::" + p.SessionId);
+                listBoxProcesos.Items.Add(n + "::" + p.ProcessName);//muestra el nombre de los procesos
+                listBoxPid.Items.Add(n + ":: " + p.Id);// muestra el PID
+                listBoxMR.Items.Add(n + "::" + p.WorkingSet64);//muestra la memoria ram que estan utilizando los procesos
+                listBoxCPU.Items.Add(n + "::" + p.SessionId);//muestra los nucleos usados de los procesos
                 n = n + 1;
             }
-            PA.Text = "Procesos ejecutando se: " + listBoxProcesos.Items.Count.ToString();
+            PA.Text = "Procesos ejecutando se: " + listBoxProcesos.Items.Count.ToString();// Nos muestra la cantidad de procesos ejecutando se
         }
         private void Form1_Load(object sender, EventArgs e)
         {
@@ -52,7 +52,7 @@ namespace tarea_p
 
                     if (p.ProcessName == proceso[1])
                     {
-                        p.Kill();
+                        p.Kill();//Elimina procesos
                     }
                 }
             }
